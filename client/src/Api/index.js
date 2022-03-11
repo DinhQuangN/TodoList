@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'http://localhost:5000/api/todo';
+const url = 'https://todolist-ndq.herokuapp.com/api/todo';
 
 export const fetchTodo = () => axios.get(url);
 export const GetTodo = newTodo => axios.post(url, newTodo);
